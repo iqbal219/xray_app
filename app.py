@@ -17,7 +17,7 @@ st.markdown("""
 .small-font { font-size:14px !important; color: gray; }
 </style>
 """, unsafe_allow_html=True)
-st.markdown('<p class="small-font">Menggunakan ekstraksi fitur <b>FOS + GLCM</b> dan klasifikasi SVM</p>', unsafe_allow_html=True)
+st.markdown('<p class="small-font">  Sistem ini menggabungkan ekstraksi fitur <b>FOS</b> dan <b>GLCM</b> dengan algoritma <b>SVM</b> untuk mendeteksi penyakit paru-paru seperti <b>TBC</b>, <b>Pneumonia</b>, dan <b>COVID-19</b> dari citra <i>X-Ray</i> secara otomatis dan akurat.</p>', unsafe_allow_html=True)
 
 # ========== Upload Gambar ==========
 st.sidebar.header("📤 Upload Gambar")
